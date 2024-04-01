@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/heybrostudio/viemuse">
+  <a href="https://github.com/heybrostudio/utils">
     <img alt="Opinionated collection of commonly used JavaScript/TypeScript utilities by @heybrostudio" src="https://raw.githubusercontent.com/heybrostudio/utils/main/.github/logo.svg " width="280">
   </a>
   <br><br>
