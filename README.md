@@ -2,7 +2,7 @@
   <a href="https://github.com/heybrostudio/viemuse">
     <img alt="Opinionated collection of commonly used JavaScript/TypeScript utilities by @heybrostudio" src="https://raw.githubusercontent.com/heybrostudio/utils/main/.github/logo.svg " width="280">
   </a>
-  <br>
+  <br><br>
   <samp>Opinionated collection of commonly used JavaScript/TypeScript utilities by <a href="https://github.com/heybrostudio">@heybrostudio</a></samp>
 </p>
 
