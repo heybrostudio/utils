@@ -32,3 +32,5 @@ function devString() {
 devConsole()
 devPromise()
 devString()
+
+// Note: Writing tests directly is good debugging.
