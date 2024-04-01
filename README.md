@@ -14,6 +14,16 @@
 ## Install
 
 ```bash
+# npm
+npm i @heybrostudio/utils@latest
+
+# yarn
+yarn add @heybrostudio/utils@latest
+
+# pnpm 
+pnpm add @heybrostudio/utils@latest
+
+# bun
 bun add @heybrostudio/utils@latest
 ```
 
