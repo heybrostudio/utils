@@ -1,19 +1,35 @@
-# @heybrostudio/utils
+<p align="center">
+  <a href="https://github.com/heybrostudio/viemuse">
+    <img alt="Opinionated collection of commonly used JavaScript/TypeScript utilities by @heybrostudio" src="https://raw.githubusercontent.com/heybrostudio/utils/main/.github/logo.svg " width="280">
+  </a>
+  <br>
+  <samp>Opinionated collection of commonly used JavaScript/TypeScript utilities by <a href="https://github.com/heybrostudio">@heybrostudio</a></samp>
+</p>
 
-Opinionated collection of commonly used JavaScript/TypeScript utilities by [@heybrostudio](https://github.com/heybrostudio).
+## Features
 
-To install:
+- Tree-shakable ESM
+- Fully typed 
+
+## Install
 
 ```bash
 bun add @heybrostudio/utils@latest
 ```
 
-To usage:
+## Usage
 
 ```ts
 import { sleep } from '@heybrostudio/utils'
 
 await sleep(1000, () => { console.log(`Hey bro, I'm awake.`) })
 ```
+
+## Authors
+
+- [@Caven](https://github.com/keyding)
+
+## License
+[MIT License](https://github.com/heybrostudio/utils/blob/main/LICENSE) © 2024-PRESENT Caven
 
 This project was created using `bun init` in bun v1.0.36. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
