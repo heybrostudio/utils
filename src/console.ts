@@ -17,3 +17,12 @@ export function green(text: string): string {
 export function cyan(text: string): string {
 	return `\x1b[36m${text}\x1b[0m`
 }
+
+/**
+ * Print red text
+ * @param text Text you want to print
+ * @returns Output red text
+ */
+export function red(text: string): string {
+	return `\x1b[31m${text}\x1b[0m`
+}
