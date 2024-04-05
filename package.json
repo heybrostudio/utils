@@ -16,10 +16,7 @@
 	"bugs": {
 		"url": "https://github.com/heybrostudio/utils/issues"
 	},
-	"keywords": [
-		"heybrostudio",
-		"utils"
-	],
+	"keywords": ["heybrostudio", "utils"],
 	"sideEffects": false,
 	"exports": {
 		".": {
@@ -31,9 +28,7 @@
 	"main": "dist/index.cjs",
 	"module": "dist/index.js",
 	"types": "dist/index.d.ts",
-	"files": [
-		"dist"
-	],
+	"files": ["dist"],
 	"scripts": {
 		"dev": "bun --watch examples/index.ts",
 		"build": "bun run typecheck && tsup",
@@ -44,6 +39,7 @@
 		"typecheck": "tsc --noEmit",
 		"release": "bumpp --commit --push --tag && npm publish --access public",
 		"up": "taze major -I",
+		"prepublishOnly": "bun run build",
 		"postinstall": "bunx simple-git-hooks"
 	},
 	"devDependencies": {
