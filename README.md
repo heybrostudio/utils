@@ -10,9 +10,9 @@
 
 ## Features
 
-• Tree shaking support for optimizing bundle size and improving performance.
-• Full type support to enhance code reliability and maintainability.
-• Includes type utilities for simplifying type operations, increasing development efficiency and code quality.
+- Tree shaking support for optimizing bundle size and improving performance.
+- Full type support to enhance code reliability and maintainability.
+- Includes type utilities for simplifying type operations, increasing development efficiency and code quality.
 
 ## Install
 
