@@ -8,7 +8,7 @@ export function downloadXlsx(value: BlobPart, filename: string) {
 	const blob = new Blob([value], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' })
 	link.style.display = 'none'
 	link.href = URL.createObjectURL(blob)
-	link.download = filename
+	link.download = `${filename}.xlsx`
 	// Fixed not being able to start downloads in Firefox
 	document.body.appendChild(link)
 	link.click()
