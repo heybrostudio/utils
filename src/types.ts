@@ -6,6 +6,11 @@ export type Flatten<T> = {
 } & {}
 
 /**
+ * Type `T` or a promise that resolves to type `T`
+ */
+export type MayBePromise<T> = T | Promise<T>
+
+/**
  * Check if it is of type `any`
  *
  * @see
