@@ -1,4 +1,4 @@
-import type { Func } from './types'
+import type { Func, MayBePromise } from './types'
 
 /**
  * Promised `setTimeout`
@@ -7,7 +7,7 @@ import type { Func } from './types'
  * @param callback callback method
  * @returns Promise
  */
-export function sleep(ms: number, callback?: Func<any>) {
+export function sleep(ms: number, callback?: Func<void, MayBePromise<void>>) {
 	return new Promise<void>((resolve) =>
 		setTimeout(async () => {
 			await callback?.()
