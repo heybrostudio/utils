@@ -232,6 +232,16 @@ type flattenTest5 = {
 */
 ```
 
+`MayBePromise`
+
+Type `T` or a promise that resolves to type `T`
+
+```ts
+
+type Callback = (param: string) => MayBePromise<number>
+// ToEqual: type Callback = (param: string) => number | Promise<number>
+```
+
 `IsAny`
 
 Check if it is of type `any`.
