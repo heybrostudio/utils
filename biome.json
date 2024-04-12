@@ -3,5 +3,12 @@
 	"extends": ["./node_modules/@heybrostudio/biome-config/biome.json"],
 	"files": {
 		"ignore": ["dist"]
+	},
+	"linter": {
+		"rules": {
+			"suspicious": {
+				"noConfusingVoidType": "off"
+			}
+		}
 	}
 }
