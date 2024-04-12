@@ -237,6 +237,7 @@ type flattenTest5 = {
 Type `T` or a promise that resolves to type `T`
 
 ```ts
+import type { MayBePromise } from '@heybrostudio/utils'
 
 type Callback = (param: string) => MayBePromise<number>
 // ToEqual: type Callback = (param: string) => number | Promise<number>
@@ -256,8 +257,10 @@ type test = IsAny<any> extends true ? 'YES' : 'NO'
 
 `Func`
 
+Function types that specify parameter and return value types.
+
 ```ts
-import type { Flatten } from '@heybrostudio/utils'
+import type { Func } from '@heybrostudio/utils'
 
 // Without parameters
 type test1 = Func<void>
