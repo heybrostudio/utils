@@ -1,6 +1,6 @@
 {
 	"name": "@heybrostudio/utils",
-	"version": "0.0.12",
+	"version": "0.0.13",
 	"type": "module",
 	"description": "Opinionated collection of commonly used JavaScript/TypeScript utilities by @heybrostudio",
 	"author": {
