@@ -1,9 +1,4 @@
 /**
- * Function type
- */
-export type Func<T = void> = () => T
-
-/**
  * Flatten type
  */
 export type Flatten<T> = {
