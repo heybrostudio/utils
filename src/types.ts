@@ -6,7 +6,7 @@ export type Flatten<T> = {
 } & {}
 
 /**
- * IsAny
+ * Check if it is of type `any`
  *
  * @see
  * The source code for this type was inspired by vueuse's `IsAny` type util
@@ -15,9 +15,11 @@ export type Flatten<T> = {
 export type IsAny<T> = 0 extends 1 & T ? true : false
 
 /**
- * Callback function type
+ * Function types that specify parameter and return value types.
+ * The default return value type is `void`.
  */
-export type Callback<T, R = void> = IsAny<T> extends true
+
+export type Func<T, R = void> = IsAny<T> extends true
 	? (param: any) => R
 	: [T] extends [void]
 		? () => R
