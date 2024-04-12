@@ -48,9 +48,9 @@
     "postinstall": "bunx simple-git-hooks"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.6.3",
+    "@biomejs/biome": "^1.6.4",
     "@happy-dom/global-registrator": "^14.7.1",
-    "@heybrostudio/biome-config": "^0.0.5",
+    "@heybrostudio/biome-config": "^0.0.6",
     "@types/bun": "latest",
     "bumpp": "^9.4.0",
     "lint-staged": "^15.2.2",
